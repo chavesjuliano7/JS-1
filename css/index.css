@@ -138,3 +138,29 @@ button[disabled=disabled], button:disabled {
 .paciente-invalido{
 	background-color: lightcoral;
 }
+
+.mensagem-erro{
+	background-color: lightcoral;
+	width: 32%;
+	padding: 0.5em;
+	margin: 0.1em;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+
+.filtro-tabela {
+	height: 2em;
+	width: 40%;
+	margin-bottom: 20px;
+}
+
+.invisivel {
+	display: none;
+	}
